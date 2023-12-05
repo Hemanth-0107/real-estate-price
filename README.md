@@ -5,7 +5,11 @@
 3. Removed the outliers in the data
 4. Applied linear regression to the cleaned data
 5. Compared with other models like lasso, decision tree
-6. Pickle file of model and the columns.json file are generates
+6. Performances are observed using GridSearchCV and k-fold-cross-validation to observe the scores
+7. For this data set linear regression gave better results. 
+8. Pickle file of model and the columns.json file are generated and used in the server
+![image](https://github.com/Hemanth-0107/real-estate-price/assets/78348403/abc5985f-3606-47b1-ad9f-af55c820f49f)
+
 
 ## Creation of Flask api and frontend:
 1. created a static html,css,javascript frontend form
