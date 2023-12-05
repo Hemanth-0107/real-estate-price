@@ -16,3 +16,12 @@
 2. Parsed the data in flask routes
 3. Using pickle and json files estimated the prices for the combination in form
 4. Returned the results and fetched them in the ui
+5. Locations can be accessed using url: http://127.0.0.1:5000/get_location_names (various places in banglore from dataset)
+6. Predictions are availed from: http://127.0.0.1:5000/predict_home_prices  (post)
+7. Example of form inputs: (request.form)
+   {
+    "total_sqft":1000,
+    "location":"Whitefield",
+    "bhk":3,
+    "bath":3
+  }
